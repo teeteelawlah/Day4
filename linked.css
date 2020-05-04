@@ -1,0 +1,148 @@
+#header {
+	background-color:white;
+	color:white;
+	text-align:center;
+	padding:0px;
+	margin: 0px;	
+}
+
+#aside {	
+line-height:30px;
+background-color:rgba(0, 0, 0, 0.753);
+height:515px;
+width:310px;
+float:left;
+margin: 0px 10px 0px 0px;
+padding:0px 0px 0px 10px;
+font-family: sans-serif;
+font-size: 100%;
+box-shadow: 0px 0px 150px;
+}
+
+#section {
+	line-height:20px;
+	background-color:rgb(245, 222, 179);
+	height:850px;	
+	width:700px;
+	float: right;
+	margin: 60px;
+	padding:10px 10px 10px 0px;	 
+	font-family: sans-serif;
+	text-align: left;
+	box-shadow: 0px 0px 100px;
+	color: rgba(202, 181, 143, 0.712);
+	font-weight: 800px;
+	background-position: center;
+}
+h1   {
+color:brown;
+line-height:25px;
+font-family: 'Arial Narrow';
+font-size: 30px;
+text-align:left;
+font-weight: 700px;
+margin: 0px;
+padding: 0px;
+}
+p  {
+color:rgba(126, 62, 62, 0.438);
+font-family:'Lucida Sans';
+font-size: 12px;
+text-align:left;
+margin:	0px	0px	0px	0px;
+padding:	10px	20px	15px	20px;
+}
+
+body {
+	background-color: rgba(169, 169, 169, 0.623);
+	background-position: center;
+	margin:	10px	150px	15px	20px;
+	padding:	10px	50px	25px	20px;
+	background-size: cover;
+
+}
+	img {
+		width:30%;
+		height:93%;
+		float:none;
+		padding:2px 115px 0px 115px;
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+	}
+	
+	.center{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	.right {
+		width: 50%;
+		margin-right: 5%;
+		margin-left: 5%;
+		float: right;
+	}
+	* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(221, 221, 221, 0.548);
+  outline: none;
+}
+label{
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0px 0px 4px;
+	font-size: 15px;
+	font-family: 'Lucida Sans';
+			}
+hr {
+  border: 1px solid rgba(255, 127, 80, 0.39);
+	margin-bottom: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:rgb(73, 70, 44);
+	color: white;
+	font-size: 12px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
